@@ -10,7 +10,6 @@
   object-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  /* padding: 10px; */
 }
 
 .header {
@@ -20,7 +19,7 @@
   margin-block-start: var(--page-padding-size);
   margin-inline-start: var(--page-padding-size);
   margin-inline-end: var(--page-padding-size);
-  height: 100%;
+  height: 100vh;
 }
 
 .header::before {
@@ -243,7 +242,7 @@
   margin-inline-start: var(--page-padding-size);
   margin-inline-end: var(--page-padding-size);
   margin-block-end: var(--page-padding-size);
-  height: 100%;
+  height: 100vh;
 }
 
 .footer::before {
