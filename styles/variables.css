@@ -13,4 +13,5 @@
   --text-color: #F1B2CE;
   --main-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-bg: url(../images/cover-image.png);
+  --page-padding-size: 10px;
 }

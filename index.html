@@ -7,8 +7,8 @@
     <meta name="color-scheme" content="dark light">
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
-    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
@@ -109,9 +109,11 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
         </h2>
         <ul class="content__text-block">
-          <h3 class="content__subtitle title-decor">
-            5 простых (на самом деле не очень) советов
-          </h3>
+          <li class="content__text-block__item"> 
+            <h3 class="content__subtitle title-decor">
+              5 простых (на самом деле не очень) советов
+            </h3>
+          </li>
           <li class="content__text-block__item">
             <h4 class="content__subtitle-unbolt title-decor">
               Представьте небо и облака
@@ -157,7 +159,7 @@
         <h3 class="content__subtitle title-decor">
           А можно в картинках?
         </h3>
-        <picture class="content-gallery__items">
+        <div class="content-gallery__items">
           <img 
             class="gallery__image"
             src="./images/sunset.png"
@@ -183,7 +185,7 @@
             src="./images/street.png"
             alt="Улица"
             loading="lazy">
-        </picture>
+        </div>
       </section>
     </main>
     <footer class="footer">
