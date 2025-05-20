@@ -19,7 +19,8 @@
   margin-block-start: var(--page-padding-size);
   margin-inline-start: var(--page-padding-size);
   margin-inline-end: var(--page-padding-size);
-  height: 100vh;
+  min-block-size: 648px;
+  max-block-size: 1024px;
 }
 
 .header::before {
@@ -242,7 +243,8 @@
   margin-inline-start: var(--page-padding-size);
   margin-inline-end: var(--page-padding-size);
   margin-block-end: var(--page-padding-size);
-  height: 100vh;
+  min-block-size: 648px;
+  max-block-size: 1024px;
 }
 
 .footer::before {
