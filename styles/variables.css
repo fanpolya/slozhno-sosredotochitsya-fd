@@ -11,7 +11,15 @@
   --title-color: #DB00FF;
   --accent-color: #FF0070;
   --text-color: #F1B2CE;
+  --label-color: #FF0070;
   --main-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-bg: url(../images/cover-image.png);
   --page-padding-size: 10px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --main-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --page-padding-size: 20px;
+  }
 }

@@ -14,7 +14,12 @@
   --accent-color: #FF8DCB;
   --title-color: #FFC2E6;
   --text-color: #353430;
+  --button-hover-color: rgba(50, 49, 45, 0.4);
 }
+
+.header__rec-label {
+    display: none;
+  }
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -23,25 +28,10 @@
     --accent-color: #FF8DCB;
     --title-color: #FFC2E6;
     --text-color: #353430;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
   }
 
   .header__rec-label {
     display: none;
   }
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
-.theme-light .header__rec-label {
-  display: none;
-}
-
-.theme-light .header__title {
-  color: #FFC2E6;
-}
-
-.theme-light .header__theme-menu-button:hover {
-  border: 1px solid rgba(50, 49, 45, 0.4);
 }

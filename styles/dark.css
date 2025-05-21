@@ -11,12 +11,15 @@
   */
 
   --header-bg: url(../images/cover-image-dark.png);
+  --bg-color: #000;
+  --header-color: #FF0070;
+  --title-color: #DB00FF;
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --label-color: #FF0070;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
-.dark-theme .header__rec-label {
+.theme-dark .header__rec-label {
   display: block;
 }
