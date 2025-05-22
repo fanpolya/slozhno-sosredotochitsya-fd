@@ -137,8 +137,8 @@
 .content {
   display: grid;
   gap: 50px;
-  margin-block-start: 40px;
-  margin-block-end: 40px;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
   font-size: 18px;
   margin-inline-start: var(--page-padding-size);
   margin-inline-end: var(--page-padding-size);
@@ -270,8 +270,8 @@
   }
 
   .content {
-    margin-block-start: 60px;
-    margin-block-end: 60px;
+    padding-block-start: 60px;
+    padding-block-end: 60px;
     gap: 80px;
   }
 
