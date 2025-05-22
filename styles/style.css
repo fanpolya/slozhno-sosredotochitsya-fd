@@ -2,10 +2,9 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  background-color: var(--bg-color), #000;
+  background-color: var(--bg-color);
   font-family: var(--main-font-family), sans-serif;
-  font-size: var(--main-text-size), 18px;
-  background-image: var(--header-bg);
+  background-image: var(--header-bg, url(../images/cover-image.png));
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -124,11 +123,11 @@
 }
 
 .header__text {
-  font-family: var(--main-font-family);
+  font-family: var(--main-font-family), sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  color: #000028;
+  color: var(--subtitle-text-color);
 }
 
 .title-decor {
@@ -173,13 +172,13 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  color: #000028;
+  color: var(--subtitle-text-color);
 }
 
 .content__subtitle-unbolt {
   font-weight: 400;
   line-height: 23.4px;
-  color: #000028;
+  color: var(--subtitle-text-color);
 }
 
 .content__text {
@@ -189,7 +188,7 @@
 }
 
 .content__link {
-  text-shadow: 2px 1px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
 }
 

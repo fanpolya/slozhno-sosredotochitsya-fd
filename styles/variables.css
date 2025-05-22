@@ -6,14 +6,15 @@
 :root {
   --main-font-family: 'IBM Plex Mono';
   --main-text-size: 18px;
-  --bg-color: #000;
+  --bg-color: #000028;
   --header-color: #FF0070;
+  --subtitle-text-color: #000028;
   --title-color: #DB00FF;
   --accent-color: #FF0070;
   --text-color: #F1B2CE;
   --label-color: #FF0070;
   --main-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --header-bg: url(../images/cover-image.png);
+  --header-bg: url(../images/cover-image-dark.png);
   --page-padding-size: 10px;
 }
 
