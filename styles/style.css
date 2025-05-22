@@ -146,6 +146,7 @@
 
 .content-why {
   display: grid;
+  gap: 20px;
 }
 
 .content__title {
@@ -153,13 +154,18 @@
   font-size: 18px;
   line-height: 23.4px;
   color: var(--header-color);
-  margin-block-end: 20px;
 }
 
 .content__text-block {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.content__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .content__text-block__item {
@@ -205,8 +211,15 @@
   outline: 1px solid var(--text-color);
 }
 
+.content-what {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .content-how {
   display: grid;
+  gap: 20px;
 }
 
 .content-gallery {
@@ -273,7 +286,11 @@
 
   .content-how {
     grid-template-columns: 1fr 2fr;
-    gap: 20px;
+  }
+
+  .content-how .content__title {
+    grid-column: 1 / 2;
+    grid-row: span 2;
   }
 
   .content-gallery {
@@ -344,7 +361,7 @@
   }
 
   .content-how {
-    gap: 10px;
+    column-gap: 10px;
   }
 
   .footer {
