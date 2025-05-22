@@ -177,7 +177,7 @@
 .content__subtitle {
   font-weight: 700;
   font-size: 18px;
-  line-height: 23.4px;
+  line-height: 23.2px;
   color: var(--subtitle-text-color);
 }
 
@@ -254,7 +254,7 @@
   font-family: var(--main-font-family), sans-serif;
   font-weight: 700;
   font-size: var(--main-title-size);
-  line-height: 83%;
+  line-height: 83%%;
   color: var(--title-color);
   text-shadow: 2px 2px 0px #FF0070;
 }
